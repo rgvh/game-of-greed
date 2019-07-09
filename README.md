@@ -1,22 +1,31 @@
 # game-of-greed
 
-**Author**: Your Name(s) Goes Here
+**Author**: Richard von Hagel
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 401 class. (i.e. What's your problem domain?) -->
+This application is a simple version of the Game of Greed (AKA Farkle) where players roll up to six dice.  After rolling, the player can set aside scoring dice and then decide to either "bank" the score or roll again.  If a subsequent roll does not score any points, all points earned are forfeited.  The objective is to reach a score of 10000.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+This application is written in python and requires a virtual environment (pipenv shell)
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. This is also an area which you can include any visuals; flow charts, example usage gifs, screen captures, etc.-->
+Python
+import random
 
 ## API
-<!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
+None
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Added functionality to add and delete some things.
+1.0.0
+Requirements:
+Application should simulate rolling between 1 and 6 dice
+Application should allow user to set aside dice each roll
+Application should user to enter score per roll
+~Application should allow “banking” current score or rolling again.~
+~Application should keep track of total score~
+~Application should keep track of current round~
+
+07-09-2019 8:35am - Added functionality to add and delete some things.
 -->
