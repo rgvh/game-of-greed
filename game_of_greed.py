@@ -13,6 +13,7 @@ current round
 number of dice being rolled
 score
 '''
+current_round = 1
 play = input("Would you like to play?")
 if play == 'y':
 
@@ -33,7 +34,7 @@ new_aside = input()
 set_aside = int(set_aside) + len(new_aside)
 print(f'You have currently are holding {set_aside} die aside')
 
-score = 0
+round_score = 0
 print("What was you score?")
 add_score = input()
 score = int(score) + int(add_score)
