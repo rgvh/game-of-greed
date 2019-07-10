@@ -19,7 +19,7 @@ total_score = 0
 
 play = input("Would you like to play?")
 if play == 'y':
-  
+
     if play == 'n':
         print("Sorry, you're missing out")
 
@@ -29,16 +29,16 @@ roll = []
 
 
 # def roll_dice(p)
-for i in range(set_aside, 6):
-    selected = random.randint(1, 6)
-    roll.append(selected)
-print(f'Your rolled: {roll}')
+# for i in range(set_aside, 6):
+#     selected = random.randint(1, 6)
+#     roll.append(selected)
+# print(f'Your rolled: {roll}')
 current_round += 1
 
-print("Which results do you wish to keep?")
-new_aside = input()
-set_aside = int(set_aside) + len(new_aside)
-print(f'You have currently are holding {set_aside} die aside')
+# print("Which results do you wish to keep?")
+# new_aside = input()
+# set_aside = int(set_aside) + len(new_aside)
+# print(f'You have currently are holding {set_aside} die aside')
 
 print("What was you score?")
 add_score = input()
@@ -47,6 +47,6 @@ total_score = int(total_score) + int(round_score)
 print(f'Your current score is {total_score}')
 
 print("Do you want to 'bank' or 'roll' again?")
-
+# next actioninput()
 
 print(f'Game Over.  Your total score was: {total_score}')
